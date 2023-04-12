@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(/images/fundo.svg);
+
+    background-size: cover;
+}
+
+.toupeiras {
+    max-width: 1200px;
+    margin: 300px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.toupeira {
+    background-image: url(/images/toupeira6.svg);
+
+    width: 220px;
+    height: 168px;
+   
+    cursor: pointer;
+}
+
+.toupeira:hover {
+    animation: downtop 1.5s infinite;
+}
+
+@keyframes downtop {
+0% {
+    background-image: url(/images/toupeira1.svg);
+}
+
+20% {
+    background-image: url(/images/toupeira2.svg);
+}
+
+40% {
+    background-image: url(/images/toupeira3.svg);
+}
+
+60% {
+    background-image: url(/images/toupeira4.svg);
+}
+
+80% {
+    background-image: url(/images/toupeira5.svg);
+}
+
+100% {
+    background-image: url(/images/toupeira6.svg);
+}
+}
+    
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
